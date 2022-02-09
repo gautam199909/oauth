@@ -20,8 +20,8 @@ const port = process.env.PORT || 3000;
 app.listen(port , ()=> console.log(`App listening on port ${port}`));
 
 
-const clientID = 'a73deda94a6f87f1e209';
-const clientSecret = 'b57c84bc1267e07686574851254f565ff87f54e6';
+const clientID = '';
+const clientSecret = '';
 
 
 app.get('/github/callback' , (req,res)=>{
